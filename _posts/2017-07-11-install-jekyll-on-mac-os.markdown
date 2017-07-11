@@ -8,7 +8,7 @@ What could be a better topic for a first blogpost then a how-to about setting up
 
 Problems began when I tried using Jekyll. Jekyll needs a Ruby version higher then 2.1 but my built-in ruby is only 2.0. Homebrew to the rescue.
 
-* Install Ruby with homebrew: https://goo.gl/rXYZsT
+* Install Ruby with [homebrew:](https://goo.gl/rXYZsT)
 * Install Jekyll: `sudo gem install Jekyll`
 
 Problems didn't stop here though. I wanted to use [Hyde](https://goo.gl/XQRkY7) as a theme which has some dependencies that weren't met. Also it's config file was outdated. Solutions:
