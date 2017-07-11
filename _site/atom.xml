@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>Jean Zombie</title>
+ <link href="http://localhost:4000/atom.xml" rel="self"/>
+ <link href="http://localhost:4000/"/>
+ <updated>2017-07-11T12:47:11+02:00</updated>
+ <id>http://localhost:4000</id>
+ <author>
+   <name>Jean Zombie</name>
+   <email></email>
+ </author>
+
+ 
+ <entry>
+   <title>install Jekyll on mac os (sierra)</title>
+   <link href="http://localhost:4000/2017/07/11/install-jekyll-on-mac-os/"/>
+   <updated>2017-07-11T11:43:34+02:00</updated>
+   <id>http://localhost:4000/2017/07/11/install-jekyll-on-mac-os</id>
+   <content type="html">&lt;p&gt;What could be a better topic for a first blogpost then a how-to about setting up the blog itself? I read a lot about the combination of github (hosting) and Jekyll (serving) for a personal blog. But it wasn&amp;#39;t as easy as it first seemed. I started off with this &lt;a href=&quot;http://www.abstractclass.org/tutorial/blog/2015/05/19/tutorial-personal-blog-with-github.html&quot;&gt;tutorial&lt;/a&gt; which covers the basics of setting up a github repo designated for blogging.&lt;/p&gt;
+
+&lt;p&gt;Problems began when I tried using Jekyll. Jekyll needs a Ruby version higher then 2.1 but my built-in ruby is only 2.0. Homebrew to the rescue.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Install Ruby with homebrew: https://goo.gl/rXYZsT&lt;/li&gt;
+&lt;li&gt;Install Jekyll: &lt;code&gt;sudo gem install Jekyll&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Problems didn&amp;#39;t stop here though. I wanted to use &lt;a href=&quot;https://goo.gl/XQRkY7&quot;&gt;Hyde&lt;/a&gt; as a theme which has some dependencies that weren&amp;#39;t met. Also it&amp;#39;s config file was outdated. Solutions:&lt;/p&gt;
+
+&lt;p&gt;In the &lt;em&gt;_config.yml&lt;/em&gt;:
+* change &amp;quot;gem&amp;quot; to &amp;quot;plugins&amp;quot;
+* add &amp;quot;[jekyll-paginate, jekyll-gist]&amp;quot; as plugins
+* comment out &amp;quot;relative&lt;em&gt;permalinks&amp;quot; or set it to &amp;quot;false&amp;quot;
+* add &amp;quot;paginate&lt;/em&gt;path: &amp;#39;page:num&amp;#39;&amp;quot;
+* remove the whole &amp;quot;markdown&amp;quot; line
+* change &amp;quot;highlighter&amp;quot; value to &amp;quot;rouge&amp;quot;, since github doesn&amp;#39;t use &amp;quot;pygments&amp;quot;&lt;/p&gt;
+
+&lt;p&gt;You probably also need to install said plugins:
+* gem install jekyll-paginate
+* gem install jekyll-gist&lt;/p&gt;
+
+&lt;p&gt;Then head over to the location of your local git repo and fire up the server with &lt;code&gt;jekyll serve&lt;/code&gt;. Did it for me.&lt;/p&gt;
+</content>
+ </entry>
+ 
+
+</feed>

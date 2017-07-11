@@ -1,0 +1,27 @@
+# Dependencies
+highlighter:      rouge
+plugins:          [jekyll-paginate, jekyll-gist]
+
+# Permalinks
+permalink:        pretty
+#relative_permalinks: true
+
+# Setup
+title:            Jean Zombie
+tagline:          'personal Blog'
+description:      'dead on arrival'
+url:
+baseurl:          /
+
+author:
+  name:           'Jean Zombie'
+  url:
+
+paginate:         5
+paginate_path:    "page:num"
+
+# Custom vars
+# version:          1.0.0
+
+# github:
+#  repo:           # https://github.com/poole/hyde
