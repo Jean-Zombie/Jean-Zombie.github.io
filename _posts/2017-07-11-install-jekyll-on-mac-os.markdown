@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "install Jekyll on mac os (sierra)"
+title: "setup a blog on github with Jekyll (mac os sierra)"
 date: "2017-07-11 11:43:34 +0200"
 ---
 
