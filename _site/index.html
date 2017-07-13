@@ -42,37 +42,19 @@
       </h1>
       <p class="lead">dead on arrival</p>
     </div>
-
+    <!--
     <nav class="sidebar-nav">
       <a class="sidebar-nav-item active" href="/">Home</a>
 
       
 
       
-      
-        
-          
-        
-      
-        
-          
-            <a class="sidebar-nav-item" href="/about/">About</a>
-          
-        
-      
-        
-      
-        
-          
-        
-      
+      <!--<a class="sidebar-nav-item" href="/archive/v.zip">Download</a>-->
+      <!--<a class="sidebar-nav-item" href="">GitHub project</a>-->
+      <!--<span class="sidebar-nav-item">Currently v</span>-->
+    <!--</nav>-->
 
-      <a class="sidebar-nav-item" href="/archive/v2.1.0.zip">Download</a>
-      <a class="sidebar-nav-item" href="">GitHub project</a>
-      <span class="sidebar-nav-item">Currently v2.1.0</span>
-    </nav>
-
-    <p>&copy; 2017. All rights reserved.</p>
+    <p style="font-size:small">&copy; 2017. All rights reserved.</p>
   </div>
 </div>
 
@@ -82,37 +64,63 @@
   
   <div class="post">
     <h1 class="post-title">
+      <a href="/2017/07/13/atom-my-new-go-to-texteditor/">
+        Atom - my new go-to texteditor
+      </a>
+    </h1>
+
+    <span class="post-date">13 Jul 2017</span>
+
+    <p>I used <em>Textwrangler</em> as my universal text editor and it did a good job. But since I discovered <em>Atom</em> I feel like I missed a few years of development.  <br />
+Here is a quick overview of what I discovered so far:</p>
+<ul>
+  <li>you can install custom packages, e.g. for <em>Jekyll</em> or a markdown preview</li>
+  <li>Git support is built in</li>
+  <li>custom themes, e.g. dark</li>
+  <li>it is free</li>
+</ul>
+
+<p>I’ll keep digging and post new discoveries.</p>
+
+  </div>
+  
+  <div class="post">
+    <h1 class="post-title">
       <a href="/2017/07/11/install-jekyll-on-mac-os/">
-        install Jekyll on mac os (sierra)
+        setup a blog on github with Jekyll (mac os sierra)
       </a>
     </h1>
 
     <span class="post-date">11 Jul 2017</span>
 
-    <p>What could be a better topic for a first blogpost then a how-to about setting up the blog itself? I read a lot about the combination of github (hosting) and Jekyll (serving) for a personal blog. But it wasn&#39;t as easy as it first seemed. I started off with this <a href="http://www.abstractclass.org/tutorial/blog/2015/05/19/tutorial-personal-blog-with-github.html">tutorial</a> which covers the basics of setting up a github repo designated for blogging.</p>
+    <p>What could be a better topic for a first blogpost than a how-to about setting up the blog itself? I read a lot about the combination of github (hosting) and Jekyll (serving) for a personal blog. But it wasn’t as easy as it first seemed. I started off with this <a href="http://www.abstractclass.org/tutorial/blog/2015/05/19/tutorial-personal-blog-with-github.html">tutorial</a> which covers the basics of setting up a github repo designated for blogging.</p>
 
 <p>Problems began when I tried using Jekyll. Jekyll needs a Ruby version higher then 2.1 but my built-in ruby is only 2.0. Homebrew to the rescue.</p>
 
 <ul>
-<li>Install Ruby with homebrew: https://goo.gl/rXYZsT</li>
-<li>Install Jekyll: <code>sudo gem install Jekyll</code></li>
+  <li>Install Ruby with <a href="https://goo.gl/rXYZsT">homebrew:</a></li>
+  <li>Install Jekyll: <code class="highlighter-rouge">sudo gem install Jekyll</code></li>
 </ul>
 
-<p>Problems didn&#39;t stop here though. I wanted to use <a href="https://goo.gl/XQRkY7">Hyde</a> as a theme which has some dependencies that weren&#39;t met. Also it&#39;s config file was outdated. Solutions:</p>
+<p>Problems didn’t stop here though. I wanted to use <a href="https://goo.gl/XQRkY7">Hyde</a> as a theme which has some dependencies that weren’t met. Also it’s config file was outdated. Solutions:</p>
 
-<p>In the <em>_config.yml</em>:
-* change &quot;gem&quot; to &quot;plugins&quot;
-* add &quot;[jekyll-paginate, jekyll-gist]&quot; as plugins
-* comment out &quot;relative<em>permalinks&quot; or set it to &quot;false&quot;
-* add &quot;paginate</em>path: &#39;page:num&#39;&quot;
-* remove the whole &quot;markdown&quot; line
-* change &quot;highlighter&quot; value to &quot;rouge&quot;, since github doesn&#39;t use &quot;pygments&quot;</p>
+<p>In the <em>_config.yml</em>:</p>
+<ul>
+  <li>change “gem” to “plugins”</li>
+  <li>add “[jekyll-paginate, jekyll-gist]” as plugins</li>
+  <li>comment out “relative_permalinks” or set it to “false”</li>
+  <li>add “paginate_path: ‘page:num’”</li>
+  <li>remove the whole “markdown” line</li>
+  <li>change “highlighter” value to “rouge”, since github doesn’t use “pygments”</li>
+</ul>
 
-<p>You probably also need to install said plugins:
-* gem install jekyll-paginate
-* gem install jekyll-gist</p>
+<p>You probably also need to install said plugins:</p>
+<ul>
+  <li>gem install jekyll-paginate</li>
+  <li>gem install jekyll-gist</li>
+</ul>
 
-<p>Then head over to the location of your local git repo and fire up the server with <code>jekyll serve</code>. Did it for me.</p>
+<p>To test everything head over to the location of your local git repo and fire up the server with <code class="highlighter-rouge">jekyll serve</code>. Then push it and it should work.</p>
 
   </div>
   
