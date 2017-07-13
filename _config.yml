@@ -1,3 +1,7 @@
+# Atom specific
+Atom:
+  Jekyll: Toggle Auto Build
+
 # Dependencies
 highlighter:      rouge
 plugins:          [jekyll-paginate, jekyll-gist]
