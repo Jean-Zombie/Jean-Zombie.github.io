@@ -65,13 +65,20 @@
   <div class="post">
     <h1 class="post-title">
       <a href="/2017/07/13/test-jekyllatom-autobuild/">
-        Test Jekyll-Atom autobuild
+        Jekyll's autobuild feature
       </a>
     </h1>
 
     <span class="post-date">13 Jul 2017</span>
 
-    <p>Test, Test</p>
+    <p>I had one problem with my blog workflow: The manual building of the html with <em>Jekyll</em>. After I finished writing a post in <em>Atom</em> I would have had to manually execute <code class="highlighter-rouge">jekyll serve</code> in my bash before I could push the changes to GitHub.</p>
+
+<p>But it doesn’t need to be like that. You can simply add this line to your <em>_config.yml</em>: <br />
+<code class="highlighter-rouge">Atom:</code><br />
+  <code class="highlighter-rouge">Jekyll: Toggle Auto Build</code></p>
+
+<p>Now, whenever you save your article in <em>Atom</em> the html will be build automatically. Given the path to your <em>Jekyll</em> binary is set and recognized by <em>Atom</em>. I had to provide the full path in the <em>Jekyll-Atom</em>-plugin under “Settings”, “Build command”:  <br />
+<code class="highlighter-rouge">[path/to/your/jekyll/bin], build</code></p>
 
   </div>
   
