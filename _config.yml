@@ -1,6 +1,6 @@
 # Atom specific
 Atom:
-  Jekyll: Toggle Auto Build
+ Jekyll: Toggle Auto Build
 
 # Dependencies
 highlighter:      rouge
