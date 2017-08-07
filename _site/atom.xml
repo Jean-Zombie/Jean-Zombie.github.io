@@ -4,7 +4,7 @@
  <title>Jean Zombie</title>
  <link href="/atom.xml" rel="self"/>
  <link href="/"/>
- <updated>2017-08-07T17:42:49+02:00</updated>
+ <updated>2017-08-07T17:43:38+02:00</updated>
  <id></id>
  <author>
    <name>Jean Zombie</name>
@@ -13,20 +13,11 @@
 
  
  <entry>
-   <title>Python decorators</title>
-   <link href="/2017/08/04/python-decorators/"/>
-   <updated>2017-08-04T13:35:48+02:00</updated>
-   <id>/2017/08/04/python-decorators</id>
-   <content type="html">&lt;p&gt;For quite some time I am trying to understand Python’s decorator logic. I think I might kill someone, kill someone, kill someone&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
    <title>Jekyll's autobuild feature</title>
    <link href="/2017/07/13/test-jekyllatom-autobuild/"/>
    <updated>2017-07-13T12:34:53+02:00</updated>
    <id>/2017/07/13/test-jekyllatom-autobuild</id>
-   <content type="html">&lt;p&gt;I had one problem with my blog workflow: The manual building of the html with &lt;em&gt;Jekyll&lt;/em&gt;. After I finished writing a post in &lt;em&gt;Atom&lt;/em&gt; I would have had to manually execute &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt; in my bash before I could push the changes to GitHub.&lt;/p&gt;
+   <content type="html">&lt;p&gt;I had one problem with my blog workflow: The manual building of the html with &lt;em&gt;Jekyll&lt;/em&gt;. After I finished writing a post in &lt;em&gt;Atom&lt;/em&gt; I would have had to manually execute &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt; in my shell before I could push the changes to GitHub.&lt;/p&gt;
 
 &lt;p&gt;But it doesn’t need to be like that. You can simply add this line to your &lt;em&gt;_config.yml&lt;/em&gt;: &lt;br /&gt;
 &lt;code class=&quot;highlighter-rouge&quot;&gt;Atom:&lt;/code&gt;&lt;br /&gt;
