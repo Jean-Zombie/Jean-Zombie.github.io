@@ -4,7 +4,7 @@
  <title>Jean Zombie</title>
  <link href="/atom.xml" rel="self"/>
  <link href="/"/>
- <updated>2017-08-08T12:14:54+02:00</updated>
+ <updated>2017-08-08T12:16:52+02:00</updated>
  <id></id>
  <author>
    <name>Jean Zombie</name>
@@ -25,7 +25,7 @@
   &lt;li&gt;choosing and performing statistic analysis&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;Fun fact from the presentation: Jupyter Notebooks have something called &lt;em&gt;Cursor Magic&lt;/em&gt;. If you press &lt;code class=&quot;highlighter-rouge&quot;&gt;alt&lt;/code&gt; + &lt;code class=&quot;highlighter-rouge&quot;&gt;cmd&lt;/code&gt;(on mac) you can place multiple instances of the cursor in a cell. This allows for editing multiple lines with similar code.&lt;/p&gt;
+&lt;p&gt;Fun fact from the presentation: Jupyter Notebooks have something called &lt;em&gt;Cursor Magic&lt;/em&gt;. If you press &lt;code class=&quot;highlighter-rouge&quot;&gt;alt&lt;/code&gt; + &lt;code class=&quot;highlighter-rouge&quot;&gt;cmd&lt;/code&gt;(on mac) you can place multiple instances of the cursor in a cell. This allows – for example – the editing of multiple lines with similar code.&lt;/p&gt;
 </content>
  </entry>
  
