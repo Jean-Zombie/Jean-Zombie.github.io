@@ -4,13 +4,25 @@
  <title>Jean Zombie</title>
  <link href="/atom.xml" rel="self"/>
  <link href="/"/>
- <updated>2017-08-08T12:16:52+02:00</updated>
+ <updated>2017-08-08T13:06:22+02:00</updated>
  <id></id>
  <author>
    <name>Jean Zombie</name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>pip – update all outdated packages at once</title>
+   <link href="/2017/08/08/pip-E2-80-93-update-all-outdated-packages-at-once/"/>
+   <updated>2017-08-08T13:02:53+02:00</updated>
+   <id>/2017/08/08/pip-%E2%80%93-update-all-outdated-packages-at-once</id>
+   <content type="html">&lt;p&gt;A quick one: Ever wanted to update all your outdated pip packages and wondered why there isn’t an easy solution built in? Well, try this in your shell:
+&lt;code class=&quot;highlighter-rouge&quot;&gt;pip list -o | cut -d &quot; &quot; -f 1 | tail -n +3 | xargs pip install -U&lt;/code&gt; (thx &lt;em&gt;Jermic&lt;/em&gt;)&lt;/p&gt;
+
+&lt;p&gt;Works on mac and at least with my Python 3.6.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Data Exploration Tutorial - Video</title>

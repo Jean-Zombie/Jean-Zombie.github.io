@@ -11,7 +11,7 @@
 
   <title>
     
-      Data Exploration Tutorial - Video &middot; Jean Zombie
+      pip – update all outdated packages at once &middot; Jean Zombie
     
   </title>
 
@@ -61,17 +61,12 @@
 
     <div class="content container">
       <div class="post">
-  <h1 class="post-title">Data Exploration Tutorial - Video</h1>
+  <h1 class="post-title">pip – update all outdated packages at once</h1>
   <span class="post-date">08 Aug 2017</span>
-  <p>Here is a nice <a href="https://youtu.be/W5WE9Db2RLU">video</a> from Pycon 2017. It shows a quite lengthy analysis of a dataset mostly with pandas involved. The research question is if black football players are more likely to get a red card then others. The presentation covers everything from</p>
-<ol>
-  <li>hypothesis building</li>
-  <li>operationalizing</li>
-  <li>data cleaning and wrangling</li>
-  <li>choosing and performing statistic analysis</li>
-</ol>
+  <p>A quick one: Ever wanted to update all your outdated pip packages and wondered why there isn’t an easy solution built in? Well, try this in your shell:
+<code class="highlighter-rouge">pip list -o | cut -d " " -f 1 | tail -n +3 | xargs pip install -U</code> (thx <em>Jermic</em>)</p>
 
-<p>Fun fact from the presentation: Jupyter Notebooks have something called <em>Cursor Magic</em>. If you press <code class="highlighter-rouge">alt</code> + <code class="highlighter-rouge">cmd</code>(on mac) you can place multiple instances of the cursor in a cell. This allows – for example – the editing of multiple lines with similar code.</p>
+<p>Works on mac and at least with my Python 3.6.</p>
 
 </div>
 
@@ -81,8 +76,8 @@
     
       <li>
         <h3>
-          <a href="/2017/08/08/pip-E2-80-93-update-all-outdated-packages-at-once/">
-            pip – update all outdated packages at once
+          <a href="/2017/08/08/data-exploration-tutorial-video/">
+            Data Exploration Tutorial - Video
             <small>08 Aug 2017</small>
           </a>
         </h3>

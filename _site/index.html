@@ -64,6 +64,22 @@
   
   <div class="post">
     <h1 class="post-title">
+      <a href="/2017/08/08/pip-E2-80-93-update-all-outdated-packages-at-once/">
+        pip – update all outdated packages at once
+      </a>
+    </h1>
+
+    <span class="post-date">08 Aug 2017</span>
+
+    <p>A quick one: Ever wanted to update all your outdated pip packages and wondered why there isn’t an easy solution built in? Well, try this in your shell:
+<code class="highlighter-rouge">pip list -o | cut -d " " -f 1 | tail -n +3 | xargs pip install -U</code> (thx <em>Jermic</em>)</p>
+
+<p>Works on mac and at least with my Python 3.6.</p>
+
+  </div>
+  
+  <div class="post">
+    <h1 class="post-title">
       <a href="/2017/08/08/data-exploration-tutorial-video/">
         Data Exploration Tutorial - Video
       </a>
