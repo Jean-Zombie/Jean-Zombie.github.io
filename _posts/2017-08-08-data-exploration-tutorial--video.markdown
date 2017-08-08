@@ -10,4 +10,4 @@ Here is a nice [video](https://youtu.be/W5WE9Db2RLU) from Pycon 2017. It shows a
 3. data cleaning and wrangling
 4. choosing and performing statistic analysis
 
-Fun facts from the presentation: Jupyter Notebooks have something called _Cursor Magic_. If you press `alt` + `cmd`(on mac) you can place multiple instances of the cursor in a cell. This allows for editing multiple lines with similar code. 
+Fun fact from the presentation: Jupyter Notebooks have something called _Cursor Magic_. If you press `alt` + `cmd`(on mac) you can place multiple instances of the cursor in a cell. This allows for editing multiple lines with similar code. 
