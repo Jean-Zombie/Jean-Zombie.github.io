@@ -4,13 +4,30 @@
  <title>Jean Zombie</title>
  <link href="/atom.xml" rel="self"/>
  <link href="/"/>
- <updated>2017-08-07T17:43:38+02:00</updated>
+ <updated>2017-08-08T11:46:21+02:00</updated>
  <id></id>
  <author>
    <name>Jean Zombie</name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>Data Exploration Tutorial - Video</title>
+   <link href="/2017/08/08/data-exploration-tutorial-video/"/>
+   <updated>2017-08-08T11:32:41+02:00</updated>
+   <id>/2017/08/08/data-exploration-tutorial--video</id>
+   <content type="html">&lt;p&gt;Here is a nice &lt;a href=&quot;https://youtu.be/W5WE9Db2RLU&quot;&gt;video&lt;/a&gt; from Pycon 2017. It shows a quite lengthy analysis of a dataset mostly with pandas involved. The research question is if black football players are more likely to get a red card then others. The presentation covers everything from&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;hypothesis building&lt;/li&gt;
+  &lt;li&gt;operationalizing&lt;/li&gt;
+  &lt;li&gt;data cleaning and wrangling&lt;/li&gt;
+  &lt;li&gt;choosing and performing statistic analysis&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Fun facts from the presentation: Jupyter Notebooks have something called &lt;em&gt;Cursor Magic&lt;/em&gt;. If you press &lt;code class=&quot;highlighter-rouge&quot;&gt;alt&lt;/code&gt; + &lt;code class=&quot;highlighter-rouge&quot;&gt;cmd&lt;/code&gt;(on mac) you can place multiple instances of the cursor in a cell. This allows for editing multiple lines with similar code.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Jekyll's autobuild feature</title>
